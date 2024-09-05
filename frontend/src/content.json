@@ -1,0 +1,130 @@
+{
+  "app": {
+    "name": "Mock App",
+    "description": "This is a mock description of the app for demonstration purposes.",
+    "address": {
+      "street": "456 Demo Street",
+      "city": "Sample City",
+      "state": "NY",
+      "zip": "67890"
+    },
+    "contact": {
+      "phone": "987-654-3210",
+      "email": "mockemail@example.com"
+    },
+    "social": {
+      "facebook": "https://www.facebook.com/mockapp",
+      "twitter": "https://www.twitter.com/mockapp",
+      "instagram": "https://www.instagram.com/mockapp"
+    }
+  },
+  "logo": "https://via.placeholder.com/200x70.png?text=Mock+Logo",
+  "header": {
+    "logoLink": "#",
+    "actionButtons": [
+      { "text": "Login", "href": "/auth/login" },
+      { "text": "Sign Up", "href": "/auth/register" }
+    ],
+    "navLinks": [
+      { "text": "Home", "href": "/" },
+      { "text": "Features", "href": "/features" },
+      { "text": "Pricing", "href": "/pricing" },
+      { "text": "Contact", "href": "/contact" }
+    ]
+  },
+  "banner": {
+    "title": "Welcome to Mock App",
+    "description": "Explore the best features and benefits of our mock app.",
+    "actionButton": { "text": "Get Started", "href": "/auth/register" },
+    "actionButton2": { "text": "Learn More", "href": "/about" },
+    "image": "https://via.placeholder.com/800x400.png?text=Banner+Image"
+  },
+  "features": [
+    {
+      "title": "Feature 1",
+      "description": "This is a mock description of feature 1.",
+      "icon": "ZapIcon"
+    },
+    {
+      "title": "Feature 2",
+      "description": "This is a mock description of feature 2.",
+      "icon": "ArrowRightIcon"
+    },
+    {
+      "title": "Feature 3",
+      "description": "This is a mock description of feature 3.",
+      "icon": "RefreshCwIcon"
+    },
+    {
+      "title": "Feature 4",
+      "description": "This is a mock description of feature 4.",
+      "icon": "GridIcon"
+    }
+  ],
+  "howItWorks": {
+    "title": "How It Works",
+    "steps": [
+      {
+        "title": "Step 1",
+        "description": "This is a mock description of step 1."
+      },
+      {
+        "title": "Step 2",
+        "description": "This is a mock description of step 2."
+      },
+      {
+        "title": "Step 3",
+        "description": "This is a mock description of step 3."
+      },
+      {
+        "title": "Step 4",
+        "description": "This is a mock description of step 4."
+      }
+    ]
+  },
+  "pricing": {
+    "title": "Pricing Plans",
+    "plans": [
+      {
+        "name": "Basic",
+        "price": "$10/month",
+        "description": "This is a mock description of the basic plan.",
+        "features": ["Basic Feature 1", "Basic Feature 2", "Basic Feature 3"]
+      },
+      {
+        "name": "Pro",
+        "price": "$20/month",
+        "description": "This is a mock description of the pro plan.",
+        "features": ["Pro Feature 1", "Pro Feature 2", "Pro Feature 3"]
+      },
+      {
+        "name": "Enterprise",
+        "price": "$30/month",
+        "description": "This is a mock description of the enterprise plan.",
+        "features": ["Enterprise Feature 1", "Enterprise Feature 2", "Enterprise Feature 3"]
+      }
+    ]
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "questions": [
+      {
+        "question": "What is Mock App?",
+        "answer": "Mock App is a demonstration application designed to showcase features and functionality."
+      },
+      {
+        "question": "How do I sign up?",
+        "answer": "You can sign up by clicking on the 'Sign Up' button and following the registration process."
+      },
+      {
+        "question": "Is there a free trial?",
+        "answer": "Yes, Mock App offers a 14-day free trial for all new users."
+      }
+    ]
+  },
+  "readyToGetStarted": {
+    "title": "Ready to Get Started?",
+    "description": "Join Mock App today and experience the best in class features.",
+    "actionButton": { "text": "Sign Up Now", "href": "/auth/register" }
+  }
+}

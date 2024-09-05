@@ -1,0 +1,10 @@
+.vscode/settings.json
+.vscode/redis-xplorer.redis
+backend/coverage/
+frontend/.env
+backend/.env
+backend/uploads/
+backend/dist/
+shared/types/*.js
+shared/schemas/*.js
+
